@@ -2,7 +2,7 @@ from pyowm import OWM
 from pyowm.utils import config
 from pyowm.utils import timestamps
 
-owm = OWM('c857186b420803192e2ab6799ca22c15')
+owm = OWM('API')
 mgr = owm.weather_manager()
 
 place = input("Where do you want to see the weather?: ")
